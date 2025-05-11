@@ -52,7 +52,7 @@ const config = {
         description: "Son of Mrs. I came in like a wrecking ball",
         correctAnswer: "Manny",
         options: [
-          { value: "Manny", label: "Manny Pacquiao" }
+          { value: "Manny", label: "Manny Pacquiao" },
           { value: "cocp", label: "Coco Martin" },
           { value: "bob", label: "Bob Ross" },
           { value: "barney", label: "Barney" },
