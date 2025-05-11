@@ -148,7 +148,7 @@ const config = {
     },
     // API configuration for sending emails
     api: {
-      baseURL: `http://localhost:3000`,
+      baseURL: `https://fiveth-monthversary.onrender.com`,
       // Configure this based on your development port (check server/app.js or .env.PORT) and update this to your live backend URL after deployment
 
       sendEmailEndpoint: "/send-email", // Endpoint for sending emails
@@ -159,7 +159,7 @@ const config = {
   closingPage: {
     // Final message displayed on the closing page
     message:
-      "Thank you for contributing to this project. I love you with all my heart",
+      "I love you baby! Happy 5th<3",
     // GIF displayed on the closing page
     gifName: "closing.gif", // Name of the GIF file in `src/assets/gifs`
     style: "w-44", // Tailwind CSS class for styling the GIF
