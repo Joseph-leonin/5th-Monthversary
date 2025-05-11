@@ -52,10 +52,10 @@ const config = {
         description: "Son of Mrs. I came in like a wrecking ball",
         correctAnswer: "Manny",
         options: [
+          { value: "Manny", label: "Manny Pacquiao" }
           { value: "cocp", label: "Coco Martin" },
           { value: "bob", label: "Bob Ross" },
           { value: "barney", label: "Barney" },
-          { value: "Manny", label: "Manny Pacquiao" },
         ],
       },
       {
@@ -82,7 +82,6 @@ const config = {
           { value: "GABRIELLE JOURNEY GABRIDO", label: "GABRIELLE JOURNEY GABRIDO" },
         ],
       },
-      // You can add more questions here
     ],
     // GIF ANIMATION CONFIGURATION
     gifConfig: [
@@ -94,7 +93,7 @@ const config = {
       },
       {
         check: (score) => score === 2, // If score is exactly 2, this GIF will be shown
-        heading: "Ehhh, not bad! so I still love you",
+        heading: "Ehhh, at least you tried! so I still love you",
         gifName: "gif3.gif",
         style: "w-44",
       },
